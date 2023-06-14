@@ -1,0 +1,9 @@
+<svg id="LP_works_upper" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="200" viewBox="0 0 1920 200">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.992" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="1" stop-color="#ececec"/>
+    </linearGradient>
+  </defs>
+  <path id="パス_11176" data-name="パス 11176" d="M1920,200Q976.887-200,0,200V0H1920Z" fill="url(#linear-gradient)"/>
+</svg>

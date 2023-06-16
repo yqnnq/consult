@@ -149,8 +149,8 @@ $(window).on('scroll', function () {
 });
 
 $(window).on('load', function () {
-  $(".js-loading").delay(1500).fadeOut('slow');
-  $(".js-loading__logo").delay(1200).fadeOut('slow', function () {
+  $(".js-loading").delay(1300).fadeOut('slow');
+  $(".js-loading__logo").delay(1000).fadeOut('slow', function () {
     $('.lp').addClass('active');
     particles(); //トップ背景
 
@@ -159,7 +159,7 @@ $(window).on('load', function () {
     }, 500);
     setTimeout(function () {
       animation(); //フェードイン
-    }, 1000);
+    }, 1500);
     setTimeout(function () {
       $('.banner').css("opacity", "1");
     }, 2000);

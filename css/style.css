@@ -1947,10 +1947,8 @@ question
   background-color: #FFFFFF;
 }
 
-.question__list-answer::after {
-  content: "A";
+.question__list-answer span{
   position: absolute;
-  top: 30px;
   left: 30px;
   color: #EF8125;
   font-size: 26px;

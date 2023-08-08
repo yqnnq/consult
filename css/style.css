@@ -2003,7 +2003,7 @@ question
     line-height: 1.5;
   }
 
-  .question__list-answer::after {
+  .question__list-answer span{
     top: 4.33vw;
     left: 2.67vw;
     font-size: 3.73vw;

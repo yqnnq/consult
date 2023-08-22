@@ -16,13 +16,9 @@ body {
   line-height: 1;
   color: #000;
   background-color: #fff;
+  overflow-x: hidden;
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-}
-
-main{
-  width: 100%;
-  overflow-x: hidden;
 }
 
 *,

@@ -1,5 +1,28 @@
 $(function () {
   /* -------------------------------------------------------
+  ローディング
+  --------------------------------------------------------*/
+  var webStorage = function webStorage() {
+    if (sessionStorage.getItem("access")) {
+      // 2回目以降アクセス時の処理
+      $('.lp').addClass('active');
+      $('.top__content').css("opacity", "1");
+      setTimeout(function () {
+        $('.banner').css("opacity", "1");
+      }, 2000);
+      animation();
+      particles();
+    } else {
+      //初回アクセス時の処理
+      sessionStorage.setItem("access", 0);
+      $(".js-loading").css("display", "block");
+      loading();
+    }
+  };
+
+  webStorage();
+
+  /* -------------------------------------------------------
   よくある質問 アコーディオン
   --------------------------------------------------------*/
   $('.question__list-title').on('click', function () {
@@ -54,6 +77,26 @@ $(function () {
   });
 });
 
+/* -------------------------------------------------------
+ローディングアニメーション
+--------------------------------------------------------*/
+function loading() {
+  $(".js-loading").delay(1300).fadeOut('slow');
+  $(".js-loading__logo").delay(1000).fadeOut('slow', function () {
+    $('.lp').addClass('active');
+    particles(); //トップ背景
+
+    setTimeout(function () {
+      $('.top__content').css("opacity", "1");
+    }, 500);
+    setTimeout(function () {
+      animation(); //フェードイン
+    }, 1500);
+    setTimeout(function () {
+      $('.banner').css("opacity", "1");
+    }, 2000);
+  });
+}
 
 /* -------------------------------------------------------
   フェードインアニメーション
@@ -146,22 +189,4 @@ function particles() {
 --------------------------------------------------------*/
 $(window).on('scroll', function () {
   animation(); //フェードイン
-});
-
-$(window).on('load', function () {
-  $(".js-loading").delay(1300).fadeOut('slow');
-  $(".js-loading__logo").delay(1000).fadeOut('slow', function () {
-    $('.lp').addClass('active');
-    particles(); //トップ背景
-
-    setTimeout(function () {
-      $('.top__content').css("opacity", "1");
-    }, 500);
-    setTimeout(function () {
-      animation(); //フェードイン
-    }, 1500);
-    setTimeout(function () {
-      $('.banner').css("opacity", "1");
-    }, 2000);
-  });
 });

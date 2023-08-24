@@ -77,7 +77,7 @@ img {
 }
 
 .pc-display {
-  display: block ;
+  display: block;
 }
 
 .sp-display {
@@ -98,7 +98,7 @@ img {
 /*------------------------------------------------------
 共通
 ------------------------------------------------------*/
-.lp{
+.lp {
   width: 100%;
 }
 
@@ -113,12 +113,12 @@ img {
   padding: 0 20px;
 }
 
-.sec__title{
+.sec__title {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.sec__title h2{
+.sec__title h2 {
   display: inline-block;
   padding-bottom: 15px;
   font-size: 30px;
@@ -252,6 +252,7 @@ img {
 }
 
 .js-loading {
+  display: none;
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -345,7 +346,7 @@ header
   transition: all .3s;
 }
 
-.header__nav-btn:hover{
+.header__nav-btn:hover {
   transform: translateY(-4px);
 }
 
@@ -380,7 +381,7 @@ header
 @media screen and (max-width: 1024px) {
   .header {
     height: 14.13vw;
-    padding:0 1.33vw 0 2.67vw;
+    padding: 0 1.33vw 0 2.67vw;
   }
 
   .header__logo {
@@ -452,7 +453,7 @@ top
   transition: opacity 0.5s;
 }
 
-.top__img{
+.top__img {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -460,7 +461,7 @@ top
   z-index: -1;
 }
 
-.top__title{
+.top__title {
   position: relative;
   margin-bottom: 40px;
   margin-left: 10rem;
@@ -471,7 +472,7 @@ top
   text-shadow: 1px 1px 10px #565656;
 }
 
-.top__title-1{
+.top__title-1 {
   position: absolute;
   right: 102%;
   font-size: 130px;
@@ -480,7 +481,7 @@ top
   transform: rotate(-8deg);
 }
 
-.top__title-2{
+.top__title-2 {
   font-size: 35px;
 }
 
@@ -507,7 +508,7 @@ top
   transition: all 0.3s;
 }
 
-.top__btn a:first-child{
+.top__btn a:first-child {
   margin-bottom: 30px;
 }
 
@@ -537,7 +538,7 @@ top
   fill: #EF8125;
 }
 
-.top__label{
+.top__label {
   position: absolute;
   top: -10%;
   right: -5%;
@@ -546,7 +547,7 @@ top
   gap: 15px;
 }
 
-.top__label-item{
+.top__label-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -558,7 +559,7 @@ top
   box-shadow: 0px 3px 6px #00000029;
 }
 
-.top__label-item p{
+.top__label-item p {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -566,7 +567,7 @@ top
   color: #555555;
 }
 
-.top__label-item p span{
+.top__label-item p span {
   font-size: 49px;
   font-family: 'Jost', sans-serif;
   letter-spacing: normal;
@@ -579,22 +580,22 @@ top
     max-width: 100%;
   }
 
-  .top__img{
+  .top__img {
     width: 65%;
   }
 
-  .top__title{
+  .top__title {
     margin-bottom: 6.67vw;
     margin-left: 22.67vw;
     font-size: 8vw;
   }
 
-  .top__title-1{
+  .top__title-1 {
     font-size: 18.67vw;
     text-shadow: 0.8vw 0.8vw #EF8125;
   }
 
-  .top__title-2{
+  .top__title-2 {
     font-size: 5.33vw;
   }
 
@@ -604,7 +605,7 @@ top
     line-height: 1.5;
   }
 
-  .top__btn{
+  .top__btn {
     display: flex;
     gap: 2.67vw;
   }
@@ -616,7 +617,7 @@ top
     border-radius: 5.33vw;
   }
 
-  .top__btn a:first-child{
+  .top__btn a:first-child {
     margin-bottom: 0;
   }
 
@@ -630,22 +631,22 @@ top
     height: 6.4vw;
   }
 
-  .top__label{
+  .top__label {
     position: initial;
     gap: 2.13vw;
     margin-bottom: 16vw;
   }
 
-  .top__label-item{
+  .top__label-item {
     width: 21.33vw;
     height: 21.33vw;
   }
 
-  .top__label-item p{
+  .top__label-item p {
     font-size: 2.67vw;
   }
 
-  .top__label-item p span{
+  .top__label-item p span {
     font-size: 8vw;
   }
 }
@@ -688,7 +689,7 @@ concept
   text-align: center;
 }
 
-.concept__text span{
+.concept__text span {
   font-size: 32px;
   background-image: radial-gradient(circle at center, #006FBF 22%, transparent 22%);
   background-position: bottom right;
@@ -774,7 +775,7 @@ concept
   padding-bottom: 80px;
 }
 
-.concept__slider-inner{
+.concept__slider-inner {
   display: flex;
   overflow-y: hidden;
 }
@@ -805,7 +806,7 @@ concept
   box-shadow: 0px 3px 6px #00000029;
 }
 
-.concept__slider-list li img{
+.concept__slider-list li img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -897,7 +898,7 @@ support
   text-align: center;
 }
 
-.support__lead span{
+.support__lead span {
   font-size: 45px;
   background-image: radial-gradient(circle at center, #006FBF 18%, transparent 18%);
   background-position: bottom right;
@@ -918,7 +919,7 @@ support
   max-width: 320px;
 }
 
-.support__content span{
+.support__content span {
   position: absolute;
   font-size: 55px;
   font-weight: bold;
@@ -927,7 +928,7 @@ support
   z-index: 1;
 }
 
-.support__content-img{
+.support__content-img {
   position: relative;
   width: 320px;
   padding-top: 100%;
@@ -936,7 +937,7 @@ support
   box-shadow: 0px 3px 6px #00000029;
 }
 
-.support__content-img img{
+.support__content-img img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1225,7 +1226,7 @@ reason
   text-align: center;
 }
 
-.reason__title h2{
+.reason__title h2 {
   position: relative;
   display: inline-block;
   padding-bottom: 25px;
@@ -1238,7 +1239,7 @@ reason
 }
 
 .reason__title h2::before,
-.reason__title h2::after{
+.reason__title h2::after {
   content: "";
   position: absolute;
   width: 50px;
@@ -1246,7 +1247,7 @@ reason
   background-size: contain;
 }
 
-.reason__title h2::before{
+.reason__title h2::before {
   left: -20%;
   background-image: url(../images/reason/icon_left.png);
 }
@@ -1520,25 +1521,25 @@ example
   background-position: bottom;
 }
 
-.example a{
+.example a {
   display: block;
 }
 
-.example a:hover img{
+.example a:hover img {
   transform: scale(1.05);
 }
 
-.example__img{
+.example__img {
   margin-bottom: 20px;
   border-radius: 4px;
   overflow: hidden;
 }
 
-.example__img img{
+.example__img img {
   transition: transform .3s;
 }
 
-.example__name{
+.example__name {
   display: inline-block;
   margin-bottom: 10px;
   padding: 4px 25px;
@@ -1549,7 +1550,7 @@ example
   text-align: center;
 }
 
-.example__title{
+.example__title {
   padding-bottom: 15px;
   margin-bottom: 15px;
   font-size: 20px;
@@ -1558,7 +1559,7 @@ example
   border-bottom: 2px solid #006FBF;
 }
 
-.example__text{
+.example__text {
   margin-bottom: 10px;
   font-size: 14px;
 }
@@ -1572,7 +1573,8 @@ example
   margin: 0 20px;
 }
 
-.slick-prev, .slick-next{
+.slick-prev,
+.slick-next {
   position: absolute;
   top: auto;
   bottom: -100px;
@@ -1587,25 +1589,28 @@ example
   z-index: 1;
 }
 
-.slick-prev::before, .slick-next::before{
+.slick-prev::before,
+.slick-next::before {
   font-size: 24px;
   color: #000000;
   opacity: 1;
 }
 
-.slick-prev:hover, .slick-next:hover{
+.slick-prev:hover,
+.slick-next:hover {
   background-color: #006FBF;
 }
 
-.slick-prev:hover::before, .slick-next:hover::before {
+.slick-prev:hover::before,
+.slick-next:hover::before {
   color: #FFFFFF;
 }
 
-.slick-prev{
+.slick-prev {
   left: 45%;
 }
 
-.slick-next{
+.slick-next {
   right: 45%;
 }
 
@@ -1868,7 +1873,7 @@ question
   padding: 88px 0 75px 0;
 }
 
-.question__list{
+.question__list {
   padding-top: 28px;
 }
 
@@ -1943,7 +1948,7 @@ question
   background-color: #FFFFFF;
 }
 
-.question__list-answer span{
+.question__list-answer span {
   position: absolute;
   left: 30px;
   color: #EF8125;
@@ -1999,7 +2004,7 @@ question
     line-height: 1.5;
   }
 
-  .question__list-answer span{
+  .question__list-answer span {
     top: 4.33vw;
     left: 2.67vw;
     font-size: 3.73vw;
@@ -2043,7 +2048,7 @@ contact
   text-align: center;
 }
 
-.contact__top-lead span{
+.contact__top-lead span {
   padding-bottom: 5px;
   background-image: linear-gradient(to right, #FFFFFF 4px, transparent 4px);
   background-size: 8px 4px;
@@ -2175,7 +2180,7 @@ contact
 
 .contactform__submit-img {
   position: absolute;
-  top: 50%;
+  top: 52%;
   right: 40px;
   transform: translateY(-50%);
 }
@@ -2190,7 +2195,7 @@ contact
   fill: #FFFFFF;
 }
 
-.contactform input[type=submit] {
+.contactform button {
   width: 100%;
   font-size: 24px;
   font-weight: bold;
@@ -2203,7 +2208,7 @@ contact
   text-decoration: none !important;
 }
 
-.contactform__submit:hover input[type=submit] {
+.contactform__submit:hover button {
   color: #EF8125;
   background-color: #FFFFFF;
 }
@@ -2339,7 +2344,7 @@ contact
     display: flex;
   }
 
-  .contactform .contactform__radio label{
+  .contactform .contactform__radio label {
     margin: 0 2.67vw 0 0;
     width: 29.33vw;
     height: 10.67vw;
@@ -2375,7 +2380,7 @@ contact
     height: 5.33vw;
   }
 
-  .contactform__submit input[type=submit] {
+  .contactform__submit button {
     font-size: 4.27vw;
     border: 0.53vw solid #EF8125;
     border-radius: 6.67vw;
